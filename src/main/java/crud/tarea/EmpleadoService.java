@@ -21,7 +21,7 @@ public class EmpleadoService {
     //Read
     public Empleado findById(long id)
     {
-        return empleadoRepository.findById(id).orElse(other:null);
+        return empleadoRepository.findById(id).orElse(null);
     }
 
     //Update no se crea ningun metodo se usa el metodo create
